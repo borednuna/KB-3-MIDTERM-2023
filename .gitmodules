@@ -1,0 +1,6 @@
+[submodule "PACMAN-PYTHON"]
+	path = PACMAN-PYTHON
+	url = git@github.com:borednuna/PACMAN-PYTHON.git
+[submodule "PACMAN-KB-MIDTERM"]
+	path = PACMAN-KB-MIDTERM
+	url = git@github.com:daf2a/PACMAN-KB-MIDTERM.git
