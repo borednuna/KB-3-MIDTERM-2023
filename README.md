@@ -9,7 +9,7 @@
 Di awal pengembangan game ini, digunakan environment Unity dengan bahasa C# dan Anaconda untuk pemanggilan API python sebagai implementasi algoritma _path finding_ GBFS dan A*. Namun ditemui beberapa kendala dalam pengembangannya. Sehingga kemudian dilakukan migrasi ke program Python dengan module _Pygame_. Repository ini berisi _submodule_ untuk kedua implemetasi tersebut.
 
 ## Pacman Game dengan C# dan API Python
-Diimplementasikan pada program [berikut](./PACMAN-KB-MIDTERM/) <br/>
+Diimplementasikan pada program [(./PACMAN-KB-MIDTERM/)](https://github.com/daf2a/PACMAN-KB-MIDTERM) <br/>
 
 ### GBFS
 Sebelum memasuki fungsi Python untuk menghitung heuristik dalam program Python, dilakukan pemanggilan fungsi Python pada kode C# yang mengirimkan argumen arah dan posisi hantu serta pemain.
@@ -35,7 +35,7 @@ Solusi sementara untuk mengurangi lagging yang disebabkan oleh pemanggilan progr
 Implementasi A* dalam program ini tidak berjalan dengan baik karena dalam pemetaan TILE_MAP, tidak mungkin menentukan fungsi TILE_MAP untuk mengatur pergerakan hantu sesuai dengan arah yang tersedia. Hal ini dikarenakan tidak ada pemetaan yang dapat dikonversi menjadi bentuk biner dari Unity ke dalam program Python.
 
 ## Pacman Game dengan Single-Language Python
-Diimplementasikan pada program [berikut](./PACMAN-PYTHON/)
+Diimplementasikan pada program [(./PACMAN-PYTHON/)](https://github.com/borednuna/PACMAN-PYTHON)
 
 ### Kendala
 #### Posisi objek pada tilemap tidak selalu tepat
